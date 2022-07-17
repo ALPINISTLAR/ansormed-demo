@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap');
-* */
 *
 {
   box-sizing: border-box;
@@ -9,12 +7,23 @@
   outline: 2px solid rgba(222, 46, 84, 1);
   outline-offset: 3px;
 }
+/* ============== */
 /* ==== body ==== */
+/* ============== */
 body
 {
   padding: 0;
   margin: 0;
   font-family: "open sans" 400, open sans condensed;
+}
+.container
+{
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 170px;
+  padding-left: 170px;
 }
 /* ===================== */
 /* === site header ===== */
@@ -27,6 +36,7 @@ body
 {
   display: flex;
   align-items: center;
+  margin-left: 114,5px;
 }
 .site-logo-img
 {
@@ -55,19 +65,11 @@ body
 {
   opacity: 0.6;
 }
-.container
-{
-  max-width: 1440px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 .site-header-container
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 4px solid blue; */
 }
 .site-nav-list
 {
@@ -126,6 +128,7 @@ body
   color:  #FFFFFF;
   background-color:  #DE2E54;
   transition: 0.4s ease;
+  margin-right: 20px;
 }
 .main-link:hover
 {
